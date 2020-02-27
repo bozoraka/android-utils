@@ -1,4 +1,4 @@
-package com.bozoraka.android.context
+package com.bozoraka.android.utils.context
 
 import android.app.Activity
 import android.content.Context

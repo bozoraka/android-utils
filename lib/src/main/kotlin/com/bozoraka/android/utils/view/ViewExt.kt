@@ -1,4 +1,4 @@
-package com.bozoraka.android.view
+package com.bozoraka.android.utils.view
 
 import android.graphics.Paint
 import android.os.Build
@@ -39,7 +39,7 @@ fun ViewGroup.inflateView(@LayoutRes layout: Int, attachToRoot: Boolean = false)
 
 fun ViewGroup.childViews(): List<View> {
     return (0 until childCount)
-            .map { getChildAt(it) }
+        .map { getChildAt(it) }
 }
 
 fun View.getColor(@ColorRes colorRes: Int): Int {

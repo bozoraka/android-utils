@@ -1,4 +1,4 @@
-package com.bozoraka.android.image
+package com.bozoraka.android.utils.image
 
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable

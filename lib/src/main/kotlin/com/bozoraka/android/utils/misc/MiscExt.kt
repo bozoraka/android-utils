@@ -1,4 +1,4 @@
-package com.bozoraka.android.misc
+package com.bozoraka.android.utils.misc
 
 import com.google.gson.reflect.TypeToken
 import java.lang.reflect.Type

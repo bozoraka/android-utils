@@ -1,4 +1,4 @@
-package com.bozoraka.utils.image
+package com.bozoraka.android.image
 
 import android.graphics.Bitmap
 import android.graphics.drawable.Drawable
@@ -16,7 +16,8 @@ fun ImageView.loadFromUrl(url: String?, maxWidth: Int = 1280, maxHeight: Int = 1
     }
 
     // Resize large bitmaps
-    val transformer = BitmapTransformer(maxWidth, maxHeight)
+    val transformer =
+        BitmapTransformer(maxWidth, maxHeight)
 
     Picasso.get()
         .load(url)

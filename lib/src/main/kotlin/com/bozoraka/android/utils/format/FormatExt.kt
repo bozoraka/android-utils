@@ -1,6 +1,6 @@
-package com.bozoraka.utils.format
+package com.bozoraka.android.format
 
-import com.bozoraka.utils.misc.orZero
+import com.bozoraka.android.misc.orZero
 import java.math.BigDecimal
 import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols

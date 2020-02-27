@@ -1,4 +1,4 @@
-package com.bozoraka.utils.view
+package com.bozoraka.android.view
 
 import android.graphics.Paint
 import android.os.Build

@@ -1,7 +1,5 @@
-apply plugin: 'com.android.application'
-
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
 
 android {
@@ -9,11 +7,10 @@ android {
     compileSdkVersion versions.compileSdk
 
     defaultConfig {
-        applicationId "com.bozoraka.utils"
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode 1
-        versionName "1.0.0-alpha01"
+        versionName "1.0.1"
     }
 
     sourceSets {
@@ -36,6 +33,7 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin"
     implementation "androidx.appcompat:appcompat:$versions.appcompat"
-    implementation "androidx.constraintlayout:constraintlayout:$versions.constraintlayout"
     implementation "androidx.recyclerview:recyclerview:$versions.recyclerview"
+    implementation "com.squareup.picasso:picasso:$versions.picasso"
+    implementation "com.google.code.gson:gson:2.8.6"
 }

@@ -1,4 +1,4 @@
-package com.bozoraka.utils
+package com.bozoraka.android.utils.sample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

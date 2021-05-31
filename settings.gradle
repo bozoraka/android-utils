@@ -1,2 +1,2 @@
-include ':sample', ':lib'
+include ':lib', ':sample'
 rootProject.name='BozorakaUtils'

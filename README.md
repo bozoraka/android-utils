@@ -24,7 +24,7 @@ Add **Android Utils** to (sub-)project(s) `build.gradle`:
 ```gradle
   dependencies {
     // ...
-    implementation 'com.bozoraka:android-utils:1.0.2'
+    implementation 'com.bozoraka:android-utils:1.0.3'
   }
 ```
 

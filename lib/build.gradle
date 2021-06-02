@@ -40,8 +40,14 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.bozoraka'
+                groupId = 'com.bozoraka.oss'
                 artifactId = 'android-utils'
+                version = gitLastTag()
+            }
+            debug(MavenPublication) {
+                from components.debug
+                groupId = 'com.bozoraka.oss'
+                artifactId = 'android-utils-debug'
                 version = gitLastTag()
             }
         }

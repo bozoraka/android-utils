@@ -3,10 +3,10 @@
 buildscript {
     ext {
         versions = [
-                kotlin    : "1.7.10",
-                compileSdk: 32,
-                minSdk    : 16,
-                targetSdk : 32,
+                kotlin    : "1.9.0",
+                compileSdk: 34,
+                minSdk    : 21,
+                targetSdk : 34,
         ]
 
         gitCommitNumber = { ->
@@ -42,7 +42,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.2.1'
+        classpath 'com.android.tools.build:gradle:8.7.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
     }
 }
